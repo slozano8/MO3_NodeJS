@@ -8,7 +8,7 @@ const app = express();
 
 //connect to mongodb & listen for requests
 //const dbURI = "mongodb+srv://netninja:test1234@net-ninja-tuts-del96.mongodb.net/node-tuts";
-const dbURI = 'mongodb+srv://<1234qwer>:<1234qwer>@nodejs.qx72q.mongodb.net/?retryWrites=true&w=majority&appName=NodeJs';
+const dbURI = 'mongodb+srv://NewOne:1234qwer@nodejs.qx72q.mongodb.net/?retryWrites=true&w=majority&appName=NodeJs'
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
   .catch(err => console.log(err));
